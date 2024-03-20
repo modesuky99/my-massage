@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f13939;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #f6e8e8;
+    box-shadow: #333;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.message {
+    flex: 1;
+    max-width: 4010px;
+    color: #211c1c;
+    
+}
+
+.gift {
+    flex:-10;
+    text-align: center;
+}
+
+footer {
+    background-color: #211c1c;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #efe2e2;
+    font-size: 0.8em;
+}
