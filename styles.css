@@ -2,46 +2,34 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(130, 124, 124);
+    color: azure;
+    system: fixed;
+    
 }
 
-header {
-    background-color: #f13939;
+header, footer {
+    background-color: rgb(7, 7, 7); /* Adjust as per preference */
     text-align: center;
     padding: 20px 0;
-}
-
-h1 {
-    color: #f6e8e8;
-    box-shadow: #333;
-    
+    color: rgb(238, 232, 232);
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 20px;
 }
 
-.message {
-    flex: 1;
-    max-width: 4010px;
-    color: #211c1c;
-    
-}
-
-.gift {
-    flex:-10;
+.content {
+    max-width: 600px; /* Adjust as per preference */
+    margin: 0 auto;
     text-align: center;
 }
 
-footer {
-    background-color: #211c1c;
-    text-align: center;
-    padding: 10px 0;
+.image-container {
+    margin-top: 20px;
 }
 
-footer p {
-    color: #efe2e2;
-    font-size: 0.8em;
+.image-container img {
+    max-width: 100%;
+    height: auto;
 }
